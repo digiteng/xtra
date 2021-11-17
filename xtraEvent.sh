@@ -11,7 +11,5 @@ fi
 sleep 1
 rm -rf /tmp/xtraEvent.tar.gz
 sleep 1
-init 4
-sleep 1
-init 3
+killall -9 enigma2
 exit 0
