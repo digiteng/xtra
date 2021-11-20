@@ -1,7 +1,7 @@
 #!/bin/sh
 # wget -q "--no-check-certificate" https://github.com/digiteng/xtra/raw/main/xtraEvent.sh -O - | /bin/sh
 sleep 1
-wget https://github.com/digiteng/xtra/releases/latest/download/xtraEvent.tar.gz -P /tmp
+wget -q https://github.com/digiteng/xtra/releases/latest/download/xtraEvent.tar.gz -P /tmp
 echo "Downloading the latest plugin version..."
 sleep 1
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent
