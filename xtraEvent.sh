@@ -7,7 +7,7 @@ sleep 1
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/xtraEvent
 rm -rf /usr/lib/enigma2/python/Components/Converter/xtra*
 rm -rf /usr/lib/enigma2/python/Components/Renderer/xtra*
-rm -rf/usr/share/enigma2/xtra
+rm -rf /usr/share/enigma2/xtra
 echo "old version is removed..."
 sleep 1
 if [ -f /tmp/xtraEvent.tar.gz ]; then
